@@ -2,7 +2,7 @@
 
 # Hamd Ul Haq
 
-**AI & Data Science Student · FAST-NUCES**
+**AI Undergraduate · FAST-NUCES**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hamdulhaq-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hamdulhaq/)
 [![GitHub followers](https://img.shields.io/github/followers/hamdulhaq27?label=Follow&style=flat-square&logo=github)](https://github.com/hamdulhaq27)
@@ -14,7 +14,7 @@
 
 ## About Me
 
-I'm a third-year AI & Data Science student at **FAST-NUCES**, building at the intersection of machine learning, NLP, and full-stack engineering. I enjoy turning research ideas into deployed, working systems — from automated data pipelines to deep learning models.
+I'm a third-year AI undergraduate at **FAST-NUCES**, building at the intersection of machine learning, NLP, and full-stack engineering. I enjoy turning research ideas into deployed, working systems — from automated data pipelines to deep learning models.
 
 - 🧠 Currently building **StockSense AI** — a stock direction forecasting system using FinBERT, LangChain, LSTM, and FastAPI
 - 🤖 Interests: NLP · Computer Vision · MLOps · Agentic AI
