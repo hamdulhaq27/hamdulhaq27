@@ -2,7 +2,7 @@
 
 # Hamd Ul Haq
 
-**AI Undergraduate · FAST-NUCES**
+**AI & Data Science Student · FAST-NUCES**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hamdulhaq-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hamdulhaq/)
 [![GitHub followers](https://img.shields.io/github/followers/hamdulhaq27?label=Follow&style=flat-square&logo=github)](https://github.com/hamdulhaq27)
@@ -14,7 +14,7 @@
 
 ## About Me
 
-I'm a third-year AI undergraduate at **FAST-NUCES**, building at the intersection of machine learning, NLP, and full-stack engineering. I enjoy turning research ideas into deployed, working systems — from automated data pipelines to deep learning models.
+I'm a third-year AI & Data Science student at **FAST-NUCES**, building at the intersection of machine learning, NLP, and full-stack engineering. I enjoy turning research ideas into deployed, working systems — from automated data pipelines to deep learning models.
 
 - 🧠 Currently building **StockSense AI** — a stock direction forecasting system using FinBERT, LangChain, LSTM, and FastAPI
 - 🤖 Interests: NLP · Computer Vision · MLOps · Agentic AI
@@ -76,7 +76,7 @@ Desktop application for managing transport operations.
 
 <div align="center">
 
-![Hamd's GitHub stats](https://github-readme-stats.vercel.app/api?username=hamdulhaq27&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true)
+![Hamd's GitHub stats](https://github-readme-stats.vercel.app/api?username=hamdulhaq27&show_icons=true&theme=github_dark&hide_border=true)
 &nbsp;&nbsp;
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hamdulhaq27&layout=compact&theme=github_dark&hide_border=true)
 
