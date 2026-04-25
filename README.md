@@ -76,8 +76,6 @@ Desktop application for managing transport operations.
 
 <div align="center">
 
-![Hamd's GitHub stats](https://github-readme-stats.vercel.app/api?username=hamdulhaq27&show_icons=true&theme=github_dark&hide_border=true)
-&nbsp;&nbsp;
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hamdulhaq27&layout=compact&theme=github_dark&hide_border=true)
 
 </div>
