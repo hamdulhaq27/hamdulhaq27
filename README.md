@@ -61,7 +61,7 @@ I'm a third year AI Undergraduate at **FAST-NUCES**, building projects related t
 Automated real-estate intelligence system for Karachi. Scrapes Zameen.com daily via GitHub Actions, segments listings with KMeans clustering, scores leads 0–100, and serves everything through a FastAPI + React dashboard deployed on Render & Vercel.
 `Python` · `FastAPI` · `Selenium` · `Docker` · `GitHub Actions` · `Scikit-learn`
 
-### 📈 [StockSense AI](https://github.com/hamdulhaq27/StockSense-AI) *(in progress)*
+### 📈 [StockSense AI](https://github.com/hamdulhaq27/StockSense-AI-Trade-Bot) *(in progress)*
 Multi-signal stock direction forecasting that fuses news sentiment (FinBERT), social media signals, and historical price data using an LSTM backbone, orchestrated with LangChain.
 `Python` · `FinBERT` · `LangChain` · `LSTM` · `FastAPI` · `Docker`
 
