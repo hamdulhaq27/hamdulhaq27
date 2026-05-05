@@ -16,7 +16,6 @@
 
 I'm a third year AI Undergraduate at **FAST-NUCES**, building projects related to machine learning, NLP, and full stack engineering. I enjoy turning research ideas into deployed, working systems, from automated data pipelines to deep learning models.
 
-- Currently building **StockSense AI**: a stock direction forecasting system using FinBERT, LangChain, LSTM, and FastAPI
 - Interests: NLP · Computer Vision · MLOps · Agentic AI
 - I like shipping things end-to-end: scraping → modeling → API → deployment
 - Reach me on [LinkedIn](https://www.linkedin.com/in/hamdulhaq/)
@@ -61,7 +60,7 @@ I'm a third year AI Undergraduate at **FAST-NUCES**, building projects related t
 Automated real-estate intelligence system for Karachi. Scrapes Zameen.com daily via GitHub Actions, segments listings with KMeans clustering, scores leads 0–100, and serves everything through a FastAPI + React dashboard deployed on Render & Vercel.
 `Python` · `FastAPI` · `Selenium` · `Docker` · `GitHub Actions` · `Scikit-learn`
 
-### 📈 [StockSense AI](https://github.com/hamdulhaq27/Stock-Sense-AI-Trade-Bot) *(in progress)*
+### 📈 [StockSense AI](https://github.com/hamdulhaq27/Stock-Sense-AI-Trade-Bot)
 Multi-signal stock direction forecasting that fuses news sentiment (FinBERT), social media signals, and historical price data using an LSTM backbone, orchestrated with LangChain.
 `Python` · `FinBERT` · `LangChain` · `LSTM` · `FastAPI` · `Docker`
 
