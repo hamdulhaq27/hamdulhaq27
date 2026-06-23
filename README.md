@@ -173,16 +173,6 @@ https://github.com/hamdulhaq27/Transport-Management-System
 
 ---
 
-## Achievements
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=hamdulhaq27&theme=tokyonight&no-frame=true&row=1&column=7"/>
-
-</div>
-
----
-
 ## Connect
 
 <div align="center">
