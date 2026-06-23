@@ -2,7 +2,7 @@
 
 # Hamd Ul Haq
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=AI+Engineer+%7C+Machine+Learning+Developer;Building+Intelligent+Systems;NLP+%7C+Computer+Vision+%7C+Agentic+AI;FAST-NUCES+AI+Undergraduate" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1200&color=00D9FF&center=true&vCenter=true&width=650&lines=AI+Engineer;Machine+Learning+Developer;Building+Intelligent+Systems;NLP+%7C+Computer+Vision+%7C+MLOps" />
 
 <br>
 
@@ -13,8 +13,6 @@
 <a href="https://github.com/hamdulhaq27">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-
-<img src="https://komarev.com/ghpvc/?username=hamdulhaq27&style=for-the-badge&color=blueviolet"/>
 
 </div>
 
