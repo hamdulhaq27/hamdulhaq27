@@ -163,16 +163,6 @@ https://github.com/hamdulhaq27/Transport-Management-System
 
 ---
 
-## Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=hamdulhaq27&theme=tokyo-night&hide_border=true"/>
-
-</div>
-
----
-
 ## Connect
 
 <div align="center">
