@@ -87,6 +87,10 @@ Automated real-estate intelligence platform for Karachi.
 
 https://github.com/hamdulhaq27/B2B-Lead-Intelligence-Platform
 
+**Deployment**
+
+https://b2-b-lead-intelligence-platform.vercel.app/
+
 ---
 
 ### StockSense AI
@@ -106,6 +110,10 @@ Multi-signal stock forecasting system combining:
 **Repository**
 
 https://github.com/hamdulhaq27/Stock-Sense-AI-Trade-Bot
+
+**Deployment**
+
+https://stocksense-ai-trader.vercel.app/
 
 ---
 
