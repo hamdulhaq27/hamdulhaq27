@@ -6,13 +6,21 @@
 
 <br>
 
+<a href="https://hamdulhaq-portfolio.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-FF9E3B?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+&nbsp;
 <a href="https://www.linkedin.com/in/hamdulhaq/">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-
+&nbsp;
 <a href="https://github.com/hamdulhaq27">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:161b22,100:0d1117&height=2&section=header"/>
 
 </div>
 
@@ -72,12 +80,12 @@ Automated real-estate intelligence platform for Karachi.
 
 **Key Features**
 
-- Daily scraping using GitHub Actions
-- KMeans market segmentation
-- Automated lead scoring
-- FastAPI backend
-- React dashboard
-- Dockerized deployment
+* Daily scraping using GitHub Actions
+* KMeans market segmentation
+* Automated lead scoring
+* FastAPI backend
+* React dashboard
+* Dockerized deployment
 
 **Stack**
 
@@ -97,11 +105,11 @@ https://b2-b-lead-intelligence-platform.vercel.app/
 
 Multi-signal stock forecasting system combining:
 
-- Financial news sentiment
-- Social sentiment analysis
-- Historical market data
-- LSTM forecasting models
-- LangChain orchestration
+* Financial news sentiment
+* Social sentiment analysis
+* Historical market data
+* LSTM forecasting models
+* LangChain orchestration
 
 **Stack**
 
@@ -175,10 +183,16 @@ https://github.com/hamdulhaq27/Transport-Management-System
 
 <div align="center">
 
+<a href="https://hamdulhaq-portfolio.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-Visit%20My%20Portfolio-FF9E3B?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+<br><br>
+
 <a href="https://www.linkedin.com/in/hamdulhaq/">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-
+&nbsp;
 <a href="https://github.com/hamdulhaq27">
 <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
@@ -192,5 +206,11 @@ https://github.com/hamdulhaq27/Transport-Management-System
 ### Building intelligent systems from data to deployment
 
 <sub>Machine Learning • NLP • Computer Vision • MLOps • Agentic AI</sub>
+
+<br><br>
+
+<a href="https://hamdulhaq-portfolio.vercel.app/">
+<img src="https://img.shields.io/badge/Explore%20My%20Work-FF9E3B?style=for-the-badge&logo=arrowright&logoColor=white"/>
+</a>
 
 </div>
