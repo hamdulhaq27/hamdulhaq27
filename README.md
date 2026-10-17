@@ -1,4 +1,4 @@
-<div align="center">
+ <div align="center">
 
 # Hamd Ul Haq
 
@@ -6,10 +6,6 @@
 
 <br>
 
-<a href="https://hamdulhaq-portfolio.vercel.app/">
-<img src="https://img.shields.io/badge/Portfolio-FF9E3B?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-&nbsp;
 <a href="https://www.linkedin.com/in/hamdulhaq/">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
@@ -183,12 +179,6 @@ https://github.com/hamdulhaq27/Transport-Management-System
 
 <div align="center">
 
-<a href="https://hamdulhaq-portfolio.vercel.app/">
-<img src="https://img.shields.io/badge/Portfolio-Visit%20My%20Portfolio-FF9E3B?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-<br><br>
-
 <a href="https://www.linkedin.com/in/hamdulhaq/">
 <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
@@ -206,11 +196,5 @@ https://github.com/hamdulhaq27/Transport-Management-System
 ### Building intelligent systems from data to deployment
 
 <sub>Machine Learning • NLP • Computer Vision • MLOps • Agentic AI</sub>
-
-<br><br>
-
-<a href="https://hamdulhaq-portfolio.vercel.app/">
-<img src="https://img.shields.io/badge/Explore%20My%20Work-FF9E3B?style=for-the-badge&logo=arrowright&logoColor=white"/>
-</a>
 
 </div>
