@@ -58,7 +58,7 @@ def expand(tpl):
 
     def ext(m):
         key, alt = m.group(1).split("|")
-        width = ' width="100%"' if key in ("stats", "langs", "activity") else ""
+        width = ""
         return picture(ext_url(key, "dark").replace("&", "&amp;"), ext_url(key, "light").replace("&", "&amp;"), alt).replace(
             f'alt="{alt}">', f'alt="{alt}"{width}>')
 

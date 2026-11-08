@@ -378,7 +378,53 @@ def connect(th):
     s.save(f"{A}/decorations/connect-{th}.svg")
 
 
+# Non-blank source lines per language across hamdulhaq27's public repositories
+# (B2B-Lead-Intelligence-Platform, CNN-GRU-IDS-Reproduction, Conversational-AI,
+# Leads-Scraping-and-Outreach-Automation, Stock-Sense-AI-Trade-Bot, Street-Fighter-AI-Bot,
+# Transport-Management-System). Notebook code cells count as Python; dependencies,
+# data, build output and generated designer files are excluded. Re-measure to update.
+LANGS = [("Python", 12509), ("TypeScript", 7657), ("HTML", 1013), ("C#", 795),
+         ("CSS", 498), ("JavaScript", 245), ("PowerShell", 123)]
+LANG_SCOPE = "7 public repos · lines of code · Nov 2026"
+LANG_COLORS = {
+    "dark": ["#3B82F6", "#38BDD8", "#7C8BA6", "#5E6C84", "#4A5568", "#3A4454", "#2E3644"],
+    "light": ["#2563EB", "#0E8FAD", "#7D8AA0", "#9AA5B6", "#B4BDCA", "#C9D0DA", "#DCE1E8"],
+}
+
+
+def languages(th):
+    total = sum(v for _, v in LANGS)
+    pct = [(n, 100 * v / total) for n, v in LANGS]
+    s = SVG(W, 212, th, "Most used languages",
+            "Most used languages by lines of code across 7 public repositories: "
+            + ", ".join(f"{n} {p:.1f}%" for n, p in pct))
+    panel(s)
+    cols = LANG_COLORS[th]
+    s.text(32, 42, "MOST USED LANGUAGES", fam="mono", size=11, weight=500, fill="blue", ls=2.2)
+    s.text(W - 32, 42, LANG_SCOPE, fam="mono", size=11, fill="faint", anchor="end", ls=0.4)
+    s.line(32, 60.5, W - 32, 60.5, stroke="border")
+    # stacked bar
+    bx, bw, by, bh = 32, W - 64, 84, 12
+    s.defs.append(f'<clipPath id="bar"><rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="6"/></clipPath>')
+    x, segs = bx, []
+    for i, (n, p) in enumerate(pct):
+        w = bw * p / 100
+        segs.append(f'<rect x="{x:.2f}" y="{by}" width="{w + 0.6:.2f}" height="{bh}" fill="{cols[i]}"/>')
+        x += w
+    s.add('<g clip-path="url(#bar)">' + "".join(segs) + "</g>")
+    # legend: 4 columns
+    cw = (W - 64) / 4
+    for i, (n, p) in enumerate(pct):
+        cx = 32 + (i % 4) * cw
+        cy = 132 + (i // 4) * 40
+        s.rect(cx, cy - 10, 10, 10, rx=2.5, fill=cols[i])
+        s.text(cx + 20, cy, n, size=14.5, weight=600 if i < 2 else 400, fill="text" if i < 2 else "muted")
+        s.text(cx + cw - 24, cy, f"{p:.1f}%", fam="mono", size=12.5, fill="text" if i < 2 else "muted", anchor="end")
+    s.save(f"{A}/analytics/languages-{th}.svg")
+
+
 def build_rest(both):
+    both(languages)
     both(timeline)
     both(process)
     for i, (t, items) in enumerate(STACK, 1):

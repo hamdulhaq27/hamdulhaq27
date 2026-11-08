@@ -8,13 +8,8 @@
 
 <br>
 
-<a href="https://hamdulhaq-portfolio.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/portfolio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/buttons/portfolio-light.svg"><img src="assets/buttons/portfolio-dark.svg" alt="Portfolio"></picture></a>&nbsp;
 <a href="https://linkedin.com/in/hamdulhaq/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/buttons/linkedin-light.svg"><img src="assets/buttons/linkedin-dark.svg" alt="LinkedIn"></picture></a>&nbsp;
 <a href="https://github.com/hamdulhaq27"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/github-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/buttons/github-light.svg"><img src="assets/buttons/github-dark.svg" alt="GitHub"></picture></a>
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=hamdulhaq27&label=PROFILE%20VIEWS&color=3B82F6&style=flat-square" alt="Profile views" />
 
 </div>
 
@@ -56,21 +51,6 @@ NLP · deep learning · data pipelines · backend APIs
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/decorations/section-03-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/decorations/section-03-light.svg"><img src="assets/decorations/section-03-dark.svg" alt="03 — Journey: Professional journey" width="840"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/timeline/journey-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/timeline/journey-light.svg"><img src="assets/timeline/journey-dark.svg" alt="Vertical timeline. 2023 to present: BS Artificial Intelligence, FAST-NUCES Islamabad. Deep learning: XDL-IDS CNN-Attention-GRU. LLM systems: La Bella Tavola assistant. ML in production: Zameen Intelligence Platform. Automation: Lead Scraping and Outreach. Now: agentic AI and applied LLM systems." width="840"></picture>
-
-<details>
-<summary><b>Read the timeline as text</b></summary>
-<br>
-
-| Stage | Milestone | What happened |
-|:--|:--|:--|
-| **2023 — present** | BS Artificial Intelligence, FAST-NUCES Islamabad | Third-year undergraduate; coursework in neural networks, NLP and software engineering. |
-| **Deep learning** | XDL-IDS · CNN-Attention-GRU *(team, ANN course)* | Added multi-head self-attention to a published CAN-bus intrusion detector; tested on merged CICIoV2024 + Car Hacking data with SHAP. |
-| **LLM systems** | La Bella Tavola assistant *(team, NLP course)* | Local LLM reservation assistant with slot extraction, a state machine, voice I/O, RAG, tool calls and an eval suite. |
-| **ML in production** | Zameen Intelligence Platform | Daily scrape → segment → score pipeline that redeploys a live API and dashboard. |
-| **Automation** | Lead Scraping & Outreach | Celery + Redis job system for Maps scraping, multi-source enrichment, Google Sheets sync and staggered outreach. |
-| **Now** | Agentic AI and applied LLM systems | Agents, voice interfaces and MLOps for keeping models reliable after deployment. |
-
-</details>
 
 <br>
 
@@ -190,8 +170,7 @@ New real-estate leads in Karachi are scattered across thousands of listings, wit
 <code>Python</code> <code>Selenium</code> <code>BeautifulSoup</code> <code>Pandas</code> <code>scikit-learn</code> <code>FastAPI</code> <code>Docker</code> <code>GitHub Actions</code> <code>Render</code> <code>Vercel</code>
 
 <a href="https://github.com/hamdulhaq27/B2B-Lead-Intelligence-Platform"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/repo-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/buttons/repo-light.svg"><img src="assets/buttons/repo-dark.svg" alt="Repository"></picture></a>&nbsp;
-<a href="https://b2-b-lead-intelligence-platform.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/demo-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/buttons/demo-light.svg"><img src="assets/buttons/demo-dark.svg" alt="Live demo"></picture></a>&nbsp;
-<a href="https://b2b-lead-intelligence-platform-1.onrender.com/docs"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/docs-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/buttons/docs-light.svg"><img src="assets/buttons/docs-dark.svg" alt="API docs"></picture></a>
+<a href="https://b2-b-lead-intelligence-platform.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/demo-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/buttons/demo-light.svg"><img src="assets/buttons/demo-dark.svg" alt="Live demo"></picture></a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/decorations/divider-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/decorations/divider-light.svg"><img src="assets/decorations/divider-dark.svg" alt="divider" width="840"></picture>
 
@@ -235,39 +214,23 @@ A car's CAN bus has no built-in authentication, so spoofing and denial-of-servic
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/decorations/section-07-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/decorations/section-07-light.svg"><img src="assets/decorations/section-07-dark.svg" alt="07 — Analytics: GitHub analytics" width="840"></picture>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=hamdulhaq27&amp;show_icons=true&amp;include_all_commits=true&amp;rank_icon=github&amp;border_radius=12&amp;bg_color=0B0E14&amp;title_color=E6EAF0&amp;text_color=8A94A6&amp;icon_color=3B82F6&amp;ring_color=38BDD8&amp;border_color=232C38&amp;custom_title=GitHub+overview"><source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=hamdulhaq27&amp;show_icons=true&amp;include_all_commits=true&amp;rank_icon=github&amp;border_radius=12&amp;bg_color=F7F9FC&amp;title_color=0E1621&amp;text_color=566173&amp;icon_color=2563EB&amp;ring_color=0E8FAD&amp;border_color=D8DFE9&amp;custom_title=GitHub+overview"><img src="https://github-readme-stats.vercel.app/api?username=hamdulhaq27&amp;show_icons=true&amp;include_all_commits=true&amp;rank_icon=github&amp;border_radius=12&amp;bg_color=0B0E14&amp;title_color=E6EAF0&amp;text_color=8A94A6&amp;icon_color=3B82F6&amp;ring_color=38BDD8&amp;border_color=232C38&amp;custom_title=GitHub+overview" alt="GitHub statistics for hamdulhaq27" width="100%"></picture>
-</td>
-<td width="50%" valign="top">
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=hamdulhaq27&amp;layout=compact&amp;langs_count=8&amp;border_radius=12&amp;bg_color=0B0E14&amp;title_color=E6EAF0&amp;text_color=8A94A6&amp;border_color=232C38&amp;custom_title=Most+used+languages"><source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=hamdulhaq27&amp;layout=compact&amp;langs_count=8&amp;border_radius=12&amp;bg_color=F7F9FC&amp;title_color=0E1621&amp;text_color=566173&amp;border_color=D8DFE9&amp;custom_title=Most+used+languages"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hamdulhaq27&amp;layout=compact&amp;langs_count=8&amp;border_radius=12&amp;bg_color=0B0E14&amp;title_color=E6EAF0&amp;text_color=8A94A6&amp;border_color=232C38&amp;custom_title=Most+used+languages" alt="Most used languages for hamdulhaq27" width="100%"></picture>
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/analytics/languages-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/analytics/languages-light.svg"><img src="assets/analytics/languages-dark.svg" alt="Most used languages by lines of code across 7 public repositories: Python 54.8%, TypeScript 33.5%, HTML 4.4%, C# 3.5%, CSS 2.2%, JavaScript 1.1%, PowerShell 0.5%." width="840"></picture>
+
+<div align="center">
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=hamdulhaq27&amp;background=0B0E14&amp;border=232C38&amp;stroke=232C38&amp;ring=3B82F6&amp;fire=38BDD8&amp;currStreakNum=E6EAF0&amp;sideNums=E6EAF0&amp;currStreakLabel=3B82F6&amp;sideLabels=8A94A6&amp;dates=8A94A6&amp;border_radius=12&amp;date_format=M+j%5B%2C+Y%5D"><source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=hamdulhaq27&amp;background=F7F9FC&amp;border=D8DFE9&amp;stroke=D8DFE9&amp;ring=2563EB&amp;fire=0E8FAD&amp;currStreakNum=0E1621&amp;sideNums=0E1621&amp;currStreakLabel=2563EB&amp;sideLabels=566173&amp;dates=566173&amp;border_radius=12&amp;date_format=M+j%5B%2C+Y%5D"><img src="https://streak-stats.demolab.com/?user=hamdulhaq27&amp;background=0B0E14&amp;border=232C38&amp;stroke=232C38&amp;ring=3B82F6&amp;fire=38BDD8&amp;currStreakNum=E6EAF0&amp;sideNums=E6EAF0&amp;currStreakLabel=3B82F6&amp;sideLabels=8A94A6&amp;dates=8A94A6&amp;border_radius=12&amp;date_format=M+j%5B%2C+Y%5D" alt="Contribution streak for hamdulhaq27"></picture>
-</td>
-</tr>
-</table>
 
-<sub>Live data from community-run services · a card may briefly show an error while a provider is rate-limited.</sub>
+</div>
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/decorations/section-08-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/decorations/section-08-light.svg"><img src="assets/decorations/section-08-dark.svg" alt="08 — Activity: Contribution activity" width="840"></picture>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=hamdulhaq27&amp;bg_color=0B0E14&amp;color=8A94A6&amp;title_color=E6EAF0&amp;line=3B82F6&amp;point=38BDD8&amp;area=true&amp;area_color=3B82F6&amp;hide_border=false&amp;radius=12&amp;custom_title=Contribution+activity+%E2%80%94+last+31+days"><source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=hamdulhaq27&amp;bg_color=F7F9FC&amp;color=566173&amp;title_color=0E1621&amp;line=2563EB&amp;point=0E8FAD&amp;area=true&amp;area_color=2563EB&amp;hide_border=false&amp;radius=12&amp;custom_title=Contribution+activity+%E2%80%94+last+31+days"><img src="https://github-readme-activity-graph.vercel.app/graph?username=hamdulhaq27&amp;bg_color=0B0E14&amp;color=8A94A6&amp;title_color=E6EAF0&amp;line=3B82F6&amp;point=38BDD8&amp;area=true&amp;area_color=3B82F6&amp;hide_border=false&amp;radius=12&amp;custom_title=Contribution+activity+%E2%80%94+last+31+days" alt="Contribution activity graph for hamdulhaq27" width="100%"></picture>
-
-<br>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/decorations/section-09-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/decorations/section-09-light.svg"><img src="assets/decorations/section-09-dark.svg" alt="09 — Process: Engineering process" width="840"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/decorations/section-08-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/decorations/section-08-light.svg"><img src="assets/decorations/section-08-dark.svg" alt="08 — Process: Engineering process" width="840"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/process/engineering-workflow-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/process/engineering-workflow-light.svg"><img src="assets/process/engineering-workflow-dark.svg" alt="Six-stage engineering process: 01 Understand — find the real problem, users, data and constraints. 02 Architect — design the system, data flow and integrations. 03 Build — develop the backend, automation and AI layer. 04 Integrate — connect models, tools, APIs, databases and services. 05 Test and optimize — validate reliability, performance and usability. 06 Deploy — ship a maintainable, working solution." width="840"></picture>
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/decorations/section-10-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/decorations/section-10-light.svg"><img src="assets/decorations/section-10-dark.svg" alt="10 — Focus: Currently exploring" width="840"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/decorations/section-09-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/decorations/section-09-light.svg"><img src="assets/decorations/section-09-dark.svg" alt="09 — Focus: Currently exploring" width="840"></picture>
 
 <table>
 <tr>
@@ -297,7 +260,7 @@ Scheduling, monitoring and redeploying models reliably — the discipline behind
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/decorations/section-11-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/decorations/section-11-light.svg"><img src="assets/decorations/section-11-dark.svg" alt="11 — Connect" width="840"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/decorations/section-10-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/decorations/section-10-light.svg"><img src="assets/decorations/section-10-dark.svg" alt="10 — Connect" width="840"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/decorations/connect-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/decorations/connect-light.svg"><img src="assets/decorations/connect-dark.svg" alt="Open to collaboration — collaborations and conversations about applied AI, LLM systems and automation are always welcome." width="840"></picture>
 
@@ -305,7 +268,6 @@ Scheduling, monitoring and redeploying models reliably — the discipline behind
 
 <br>
 
-<a href="https://hamdulhaq-portfolio.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/portfolio-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/buttons/portfolio-light.svg"><img src="assets/buttons/portfolio-dark.svg" alt="Portfolio"></picture></a>&nbsp;
 <a href="https://linkedin.com/in/hamdulhaq/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/linkedin-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/buttons/linkedin-light.svg"><img src="assets/buttons/linkedin-dark.svg" alt="LinkedIn"></picture></a>&nbsp;
 <a href="https://github.com/hamdulhaq27"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/github-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/buttons/github-light.svg"><img src="assets/buttons/github-dark.svg" alt="GitHub"></picture></a>
 

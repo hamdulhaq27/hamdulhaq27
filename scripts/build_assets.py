@@ -123,10 +123,9 @@ SECTIONS = [
     ("05", "Stack", "Tech stack"),
     ("06", "Projects", "Featured projects"),
     ("07", "Analytics", "GitHub analytics"),
-    ("08", "Activity", "Contribution activity"),
-    ("09", "Process", "Engineering process"),
-    ("10", "Focus", "Currently exploring"),
-    ("11", "Connect", "Connect"),
+    ("08", "Process", "Engineering process"),
+    ("09", "Focus", "Currently exploring"),
+    ("10", "Connect", "Connect"),
 ]
 
 
@@ -135,7 +134,7 @@ def section_header(th, num, label, title):
     s.text(0, 18, num, fam="mono", size=11.5, weight=500, fill="blue", ls=2)
     x = measure(num, "mono", 500, 11.5, 2) + 12
     mono_label(s, x, 18, f"—  {label}", size=11.5, ls=2.2)
-    s.text(W, 18, f"{num} / 11", fam="mono", size=11, fill="faint", anchor="end", ls=1.5)
+    s.text(W, 18, f"{num} / {len(SECTIONS) + 1:02d}", fam="mono", size=11, fill="faint", anchor="end", ls=1.5)
     s.text(-1, 56, title, size=28, weight=600, ls=-0.5)
     s.line(0, 76.5, W, 76.5, stroke="border")
     s.line(0, 76, 56, 76, stroke="blue", sw=2)
@@ -228,9 +227,8 @@ if __name__ == "__main__":
         both(card_head, "capabilities", name, num, label, title, ic)
     for name, num, label, title, ic in FOCUS:
         both(focus_head, name, num, label, title, ic)
-    for name, label, ic in [("portfolio", "Portfolio", "globe"), ("linkedin", "LinkedIn", "linkedin"),
-                            ("github", "GitHub", "github"), ("repo", "Repository", "code"),
-                            ("demo", "Live demo", "play"), ("docs", "API docs", "doc")]:
+    for name, label, ic in [("linkedin", "LinkedIn", "linkedin"), ("github", "GitHub", "github"),
+                            ("repo", "Repository", "code"), ("demo", "Live demo", "play")]:
         both(button, name, label, ic)
     both(divider)
     build_rest(both)

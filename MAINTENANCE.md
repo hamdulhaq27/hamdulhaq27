@@ -12,6 +12,7 @@ assets/
   stack/                  seven tech-stack rows
   projects/               three illustrations + framed Zameen screenshot
   process/                six-stage engineering workflow
+  analytics/              most-used-languages card (measured, not live)
   buttons/                link buttons
 scripts/                  generator (Python) + font subsets source (OFL)
 ```
@@ -36,16 +37,21 @@ inside each SVG, so nothing in the core design loads from an external host.
 
 Template macros: `[[pic:path|alt|width]]`, `[[btn:name|url|label]]`, `[[ext:key|alt]]`.
 
-## External services (live data only)
+## Languages card
+
+`assets/analytics/languages-*.svg` is generated from measured data, not fetched live: the
+public github-readme-stats instance was returning errors. Figures are non-blank source lines
+per language across seven public repositories, measured Nov 2026 (notebook code cells count
+as Python; dependencies, data, build output and generated files excluded). To refresh, update
+`LANGS` and `LANG_SCOPE` in `scripts/build_assets_2.py` and regenerate.
+
+## External service (live data)
 
 | Card | Service | Notes |
 |---|---|---|
-| Stats, top languages | github-readme-stats.vercel.app | Public instance is best-effort and can rate-limit. Fix: deploy your own instance on Vercel with a `PAT_1` token and replace the host in `scripts/build_readme.py`. |
-| Streak | streak-stats.demolab.com | Self-hostable if it becomes unreliable. |
-| Activity graph | github-readme-activity-graph.vercel.app | Last 31 days of contributions. |
-| Visitor counter | komarev.com/ghpvc | Counts page loads, not unique visitors. |
+| Contribution streak | streak-stats.demolab.com | Live. Self-hostable if it becomes unreliable. |
 
-If any provider is down, only that card shows its alt text; the rest of the page is unaffected.
+If it is ever down, only that card shows its alt text; the rest of the page is unaffected.
 
 ## Not included (by request)
 

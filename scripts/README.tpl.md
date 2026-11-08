@@ -8,13 +8,8 @@
 
 <br>
 
-[[btn:portfolio|https://hamdulhaq-portfolio.vercel.app|Portfolio]]&nbsp;
 [[btn:linkedin|https://linkedin.com/in/hamdulhaq/|LinkedIn]]&nbsp;
 [[btn:github|https://github.com/hamdulhaq27|GitHub]]
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=hamdulhaq27&label=PROFILE%20VIEWS&color=3B82F6&style=flat-square" alt="Profile views" />
 
 </div>
 
@@ -56,21 +51,6 @@ NLP · deep learning · data pipelines · backend APIs
 [[pic:decorations/section-03|03 — Journey: Professional journey|840]]
 
 [[pic:timeline/journey|Vertical timeline. 2023 to present: BS Artificial Intelligence, FAST-NUCES Islamabad. Deep learning: XDL-IDS CNN-Attention-GRU. LLM systems: La Bella Tavola assistant. ML in production: Zameen Intelligence Platform. Automation: Lead Scraping and Outreach. Now: agentic AI and applied LLM systems.|840]]
-
-<details>
-<summary><b>Read the timeline as text</b></summary>
-<br>
-
-| Stage | Milestone | What happened |
-|:--|:--|:--|
-| **2023 — present** | BS Artificial Intelligence, FAST-NUCES Islamabad | Third-year undergraduate; coursework in neural networks, NLP and software engineering. |
-| **Deep learning** | XDL-IDS · CNN-Attention-GRU *(team, ANN course)* | Added multi-head self-attention to a published CAN-bus intrusion detector; tested on merged CICIoV2024 + Car Hacking data with SHAP. |
-| **LLM systems** | La Bella Tavola assistant *(team, NLP course)* | Local LLM reservation assistant with slot extraction, a state machine, voice I/O, RAG, tool calls and an eval suite. |
-| **ML in production** | Zameen Intelligence Platform | Daily scrape → segment → score pipeline that redeploys a live API and dashboard. |
-| **Automation** | Lead Scraping & Outreach | Celery + Redis job system for Maps scraping, multi-source enrichment, Google Sheets sync and staggered outreach. |
-| **Now** | Agentic AI and applied LLM systems | Agents, voice interfaces and MLOps for keeping models reliable after deployment. |
-
-</details>
 
 <br>
 
@@ -190,8 +170,7 @@ New real-estate leads in Karachi are scattered across thousands of listings, wit
 <code>Python</code> <code>Selenium</code> <code>BeautifulSoup</code> <code>Pandas</code> <code>scikit-learn</code> <code>FastAPI</code> <code>Docker</code> <code>GitHub Actions</code> <code>Render</code> <code>Vercel</code>
 
 [[btn:repo|https://github.com/hamdulhaq27/B2B-Lead-Intelligence-Platform|Repository]]&nbsp;
-[[btn:demo|https://b2-b-lead-intelligence-platform.vercel.app/|Live demo]]&nbsp;
-[[btn:docs|https://b2b-lead-intelligence-platform-1.onrender.com/docs|API docs]]
+[[btn:demo|https://b2-b-lead-intelligence-platform.vercel.app/|Live demo]]
 
 [[pic:decorations/divider|divider|840]]
 
@@ -235,39 +214,23 @@ A car's CAN bus has no built-in authentication, so spoofing and denial-of-servic
 
 [[pic:decorations/section-07|07 — Analytics: GitHub analytics|840]]
 
-<table>
-<tr>
-<td width="50%" valign="top">
-[[ext:stats|GitHub statistics for hamdulhaq27]]
-</td>
-<td width="50%" valign="top">
-[[ext:langs|Most used languages for hamdulhaq27]]
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center">
+[[pic:analytics/languages|Most used languages by lines of code across 7 public repositories: Python 54.8%, TypeScript 33.5%, HTML 4.4%, C# 3.5%, CSS 2.2%, JavaScript 1.1%, PowerShell 0.5%.|840]]
+
+<div align="center">
+
 [[ext:streak|Contribution streak for hamdulhaq27]]
-</td>
-</tr>
-</table>
 
-<sub>Live data from community-run services · a card may briefly show an error while a provider is rate-limited.</sub>
+</div>
 
 <br>
 
-[[pic:decorations/section-08|08 — Activity: Contribution activity|840]]
-
-[[ext:activity|Contribution activity graph for hamdulhaq27]]
-
-<br>
-
-[[pic:decorations/section-09|09 — Process: Engineering process|840]]
+[[pic:decorations/section-08|08 — Process: Engineering process|840]]
 
 [[pic:process/engineering-workflow|Six-stage engineering process: 01 Understand — find the real problem, users, data and constraints. 02 Architect — design the system, data flow and integrations. 03 Build — develop the backend, automation and AI layer. 04 Integrate — connect models, tools, APIs, databases and services. 05 Test and optimize — validate reliability, performance and usability. 06 Deploy — ship a maintainable, working solution.|840]]
 
 <br>
 
-[[pic:decorations/section-10|10 — Focus: Currently exploring|840]]
+[[pic:decorations/section-09|09 — Focus: Currently exploring|840]]
 
 <table>
 <tr>
@@ -297,7 +260,7 @@ Scheduling, monitoring and redeploying models reliably — the discipline behind
 
 <br>
 
-[[pic:decorations/section-11|11 — Connect|840]]
+[[pic:decorations/section-10|10 — Connect|840]]
 
 [[pic:decorations/connect|Open to collaboration — collaborations and conversations about applied AI, LLM systems and automation are always welcome.|840]]
 
@@ -305,7 +268,6 @@ Scheduling, monitoring and redeploying models reliably — the discipline behind
 
 <br>
 
-[[btn:portfolio|https://hamdulhaq-portfolio.vercel.app|Portfolio]]&nbsp;
 [[btn:linkedin|https://linkedin.com/in/hamdulhaq/|LinkedIn]]&nbsp;
 [[btn:github|https://github.com/hamdulhaq27|GitHub]]
 
