@@ -4,7 +4,7 @@
 
 <br>
 
-**AI undergraduate at FAST-NUCES Islamabad building LLM applications, voice and RAG assistants, automated data pipelines and deep-learning models — from data collection to deployment.**
+**AI undergraduate at FAST-NUCES Islamabad building LLM applications, voice and RAG assistants, automated data pipelines and deep-learning models, from data collection to deployment.**
 
 <br>
 
@@ -25,7 +25,7 @@ I'm Hamd, a third-year Artificial Intelligence undergraduate at **FAST-NUCES Isl
 
 Most of what I build sits where models meet real systems: a local LLM assistant that takes restaurant bookings by text or voice, a pipeline that scrapes, segments and scores property listings every morning, and a queue-backed scraper that enriches business leads and runs scheduled outreach.
 
-I like the unglamorous parts that make AI usable — extracting structured slots *before* the LLM sees a message, dedup keys that make reruns safe, subprocess pipelines that refuse to sync half-finished data, and evaluation suites that say whether any of it actually works.
+I like the unglamorous parts that make AI usable, extracting structured slots *before* the LLM sees a message, dedup keys that make reruns safe, subprocess pipelines that refuse to sync half-finished data, and evaluation suites that say whether any of it actually works.
 
 </td>
 <td width="44%" valign="top">
@@ -143,10 +143,10 @@ End-to-end systems where the model is one component: speech-to-text → LLM → 
 
 Building a B2B lead list by hand means searching Maps, visiting every website, hunting LinkedIn for decision-makers and tracking who has already been emailed. This system does it in the background: give it a business type and a location, and it scrapes Google Maps, enriches every business, syncs clean leads to Google Sheets and runs scheduled outreach.
 
-- **Non-blocking by design** — FastAPI only enqueues jobs and returns a task ID; a Celery worker on Redis does the work while the UI polls `/api/task-status`.
-- **Fail-closed pipeline** — five subprocess stages (Apify Maps actor → website crawl → LinkedIn / Facebook / Instagram / YouTube enrichment → cleaning → Sheets sync); if any stage exits non-zero, partial data never reaches the sheet.
-- **Clean, deduplicated output** — phones normalised to E.164, personal vs role-based emails split, leads merged by `place_id`, top five decision-makers ranked CEO/Founder → C-suite → directors.
-- **Safe scheduling** — scrapes and campaigns can be queued for an exact time with `apply_async(eta=…)`; campaigns fan out one send per lead at +0s, +30s, +60s… and write `email_status` back, so reruns never email anyone twice.
+- **Non-blocking by design**: FastAPI only enqueues jobs and returns a task ID; a Celery worker on Redis does the work while the UI polls `/api/task-status`.
+- **Fail-closed pipeline**: five subprocess stages (Apify Maps actor → website crawl → LinkedIn / Facebook / Instagram / YouTube enrichment → cleaning → Sheets sync); if any stage exits non-zero, partial data never reaches the sheet.
+- **Clean, deduplicated output**: phones normalised to E.164, personal vs role-based emails split, leads merged by `place_id`, top five decision-makers ranked CEO/Founder → C-suite → directors.
+- **Safe scheduling**: scrapes and campaigns can be queued for an exact time with `apply_async(eta=…)`; campaigns fan out one send per lead at +0s, +30s, +60s… and write `email_status` back, so reruns never email anyone twice.
 
 <code>Python</code> <code>FastAPI</code> <code>Celery</code> <code>Redis</code> <code>Apify</code> <code>Google Sheets API</code> <code>SMTP</code> <code>Docker</code>
 
@@ -154,18 +154,18 @@ Building a B2B lead list by hand means searching Maps, visiting every website, h
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/decorations/divider-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/decorations/divider-light.svg"><img src="assets/decorations/divider-dark.svg" alt="divider" width="840"></picture>
 
-### Zameen Intelligence Platform
+### Real Estate Lead Intelligence Platform
 
 <sub><b>ML PIPELINE · LIVE PRODUCT</b></sub>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/zameen-dashboard-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/projects/zameen-dashboard-light.svg"><img src="assets/projects/zameen-dashboard-dark.svg" alt="Screenshot of the live Zameen Intelligence lead dashboard with KPI cards, top locations by volume, market segment distribution and highest-scored leads." width="840"></picture>
 
-New real-estate leads in Karachi are scattered across thousands of listings, with no quick way to tell which are worth a call. Every morning at 7 AM PKT, this platform collects the day's flat listings from Zameen.com, segments the market, scores every lead and redeploys a live API and dashboard — with no manual step.
+New real-estate leads in Karachi are scattered across thousands of listings, with no quick way to tell which are worth a call. Every morning at 7 AM PKT, this platform collects the day's flat listings from Zameen.com, segments the market, scores every lead and redeploys a live API and dashboard with no manual step.
 
-- **Automated daily run** — a GitHub Actions cron job scrapes, cleans, segments and scores, commits fresh CSVs, then triggers a Render redeploy.
-- **Today-only scraper** — Selenium keeps only listings posted today and visits agency profiles for phone, email and listing counts.
-- **Scoring and segmentation** — a weighted 0–100 lead score (price, area, price/sqft, recency, verified agency …) and KMeans (K = 4) tiers from Budget to Luxury.
-- **Product surface** — FastAPI REST API in Docker on Render, single-file dashboard on Vercel with KPIs, trends, segments and filterable leads.
+- **Automated daily run**: a GitHub Actions cron job scrapes, cleans, segments and scores, commits fresh CSVs, then triggers a Render redeploy.
+- **Today-only scraper**: Selenium keeps only listings posted today and visits agency profiles for phone, email and listing counts.
+- **Scoring and segmentation**: a weighted 0–100 lead score (price, area, price/sqft, recency, verified agency …) and KMeans (K = 4) tiers from Budget to Luxury.
+- **Product surface**: FastAPI REST API in Docker on Render, single-file dashboard on Vercel with KPIs, trends, segments and filterable leads.
 
 <code>Python</code> <code>Selenium</code> <code>BeautifulSoup</code> <code>Pandas</code> <code>scikit-learn</code> <code>FastAPI</code> <code>Docker</code> <code>GitHub Actions</code> <code>Render</code> <code>Vercel</code>
 
@@ -174,18 +174,18 @@ New real-estate leads in Karachi are scattered across thousands of listings, wit
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/decorations/divider-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/decorations/divider-light.svg"><img src="assets/decorations/divider-dark.svg" alt="divider" width="840"></picture>
 
-### La Bella Tavola — Conversational Reservation Assistant
+### Conversational Reservation Assistant
 
-<sub><b>LLM · RAG · VOICE AI</b> &nbsp;·&nbsp; team project, CS 4063 Natural Language Processing</sub>
+<sub><b>LLM · RAG · VOICE AI</b></sub>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/la-bella-tavola-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/projects/la-bella-tavola-light.svg"><img src="assets/projects/la-bella-tavola-dark.svg" alt="Illustration (not a screenshot) of the La Bella Tavola pipeline: chat and voice input, Faster-Whisper, slot extraction and FSM, prompt builder, Qwen via Ollama, Chroma RAG with tools, Piper TTS, and token streaming to a React UI." width="840"></picture>
 
-Small LLMs running on a CPU drift, hallucinate and forget booking details halfway through a conversation. This fully local front-desk assistant handles reservations, changes, cancellations and menu, weather and helpdesk questions — by text or voice — by putting structure around the model instead of trusting it.
+Small LLMs running on a CPU drift, hallucinate and forget booking details halfway through a conversation. This fully local front-desk assistant handles reservations, changes, cancellations and menu, weather and helpdesk questions by text or voice, by putting structure around the model instead of trusting it.
 
-- **Structure before generation** — regex slot extraction and intent detection run first; a finite-state machine (`collecting → confirming → confirmed → modifying`) decides what is still missing.
-- **Constrained local inference** — stage-specific prompts with few-shot examples, Qwen 1.8B / Qwen 2.5 3B Instruct via Ollama, `MAX_TOKENS = 250` and stop sequences, streamed token-by-token over FastAPI WebSockets to a React UI.
-- **Voice loop** — Faster-Whisper speech-to-text in, Piper text-to-speech out as Base64 WAV.
-- **RAG, tools and evals** — Chroma + sentence-transformers retrieval and tool calls (CRM, menu, weather, SQLite), plus an evaluation suite covering task completion, retrieval precision/recall/MRR, tool-call accuracy and latency (TTFT, p90, p99).
+- **Structure before generation**:regex slot extraction and intent detection run first; a finite-state machine (`collecting → confirming → confirmed → modifying`) decides what is still missing.
+- **Constrained local inference**:stage-specific prompts with few-shot examples, Qwen 1.8B / Qwen 2.5 3B Instruct via Ollama, `MAX_TOKENS = 250` and stop sequences, streamed token-by-token over FastAPI WebSockets to a React UI.
+- **Voice loop**: Faster-Whisper speech-to-text in, Piper text-to-speech out as Base64 WAV.
+- **RAG, tools and evals**: Chroma + sentence-transformers retrieval and tool calls (CRM, menu, weather, SQLite), plus an evaluation suite covering task completion, retrieval precision/recall/MRR, tool-call accuracy and latency (TTFT, p90, p99).
 
 <code>Python</code> <code>FastAPI</code> <code>WebSockets</code> <code>Ollama</code> <code>Qwen</code> <code>Chroma</code> <code>sentence-transformers</code> <code>Faster-Whisper</code> <code>Piper</code> <code>React</code> <code>TypeScript</code> <code>Docker Compose</code>
 
@@ -193,18 +193,18 @@ Small LLMs running on a CPU drift, hallucinate and forget booking details halfwa
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/decorations/divider-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/decorations/divider-light.svg"><img src="assets/decorations/divider-dark.svg" alt="divider" width="840"></picture>
 
-### XDL-IDS — CNN-Attention-GRU Intrusion Detection
+### CNN-Attention-GRU Intrusion Detection
 
-<sub><b>DEEP LEARNING · SECURITY</b> &nbsp;·&nbsp; team project, AI-3003 Artificial Neural Networks</sub>
+<sub><b>DEEP LEARNING · SECURITY</b></sub>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/xdl-ids-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/projects/xdl-ids-light.svg"><img src="assets/projects/xdl-ids-dark.svg" alt="Illustration (not a screenshot) of the CNN-Attention-GRU model: CAN bus frames through Conv1D, multi-head self-attention, GRU and dense layers to Normal, DoS or Spoofing, with reported results." width="840"></picture>
 
 A car's CAN bus has no built-in authentication, so spoofing and denial-of-service attacks have to be spotted from message patterns alone. This project extends the published XDL-IDS CNN-GRU detector by inserting a multi-head self-attention layer, then stress-tests generalisation by merging two datasets.
 
-- **Architecture** — Input → Conv1D → multi-head self-attention → GRU → Dense, compared against the CNN-GRU baseline.
-- **Dataset expansion** — CICIoV2024 merged with the Car Hacking dataset: hex payloads to decimal, a unified `ID, DATA_0–DATA_7` schema and cross-dataset attack-label mapping.
-- **Efficient training** — mixed precision (float16), XLA JIT and larger batches on a Colab T4.
-- **Reported results** — 100% binary accuracy on CICIoV2024 (baseline ~99.9%) with faster convergence; on the harder merged dataset ~93–94% binary and ~75% multiclass. SHAP ranks `DATA_0` and `DATA_1` as the most important features.
+- **Architecture**: Input → Conv1D → multi-head self-attention → GRU → Dense, compared against the CNN-GRU baseline.
+- **Dataset expansion**: CICIoV2024 merged with the Car Hacking dataset: hex payloads to decimal, a unified `ID, DATA_0–DATA_7` schema and cross-dataset attack-label mapping.
+- **Efficient training**: mixed precision (float16), XLA JIT and larger batches on a Colab T4.
+- **Reported results**: 100% binary accuracy on CICIoV2024 (baseline ~99.9%) with faster convergence; on the harder merged dataset ~93–94% binary and ~75% multiclass. SHAP ranks `DATA_0` and `DATA_1` as the most important features.
 
 <code>Python</code> <code>TensorFlow</code> <code>Keras</code> <code>scikit-learn</code> <code>SHAP</code> <code>Google Colab</code>
 
@@ -238,7 +238,7 @@ A car's CAN bus has no built-in authentication, so spoofing and denial-of-servic
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/focus/agentic-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/focus/agentic-light.svg"><img src="assets/focus/agentic-dark.svg" alt="A — Agentic AI architectures" width="280"></picture>
 
-Agents that plan, call tools and recover when a step fails — a natural next step from the tool-calling and state-machine design in La Bella Tavola.
+Agents that plan, call tools and recover when a step fails.
 
 </td>
 <td width="33%" valign="top">
@@ -252,7 +252,7 @@ Faster speech pipelines and better grounding for small, local models, so voice a
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/focus/mlops-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/focus/mlops-light.svg"><img src="assets/focus/mlops-dark.svg" alt="C — MLOps and production ML" width="280"></picture>
 
-Scheduling, monitoring and redeploying models reliably — the discipline behind keeping a daily pipeline like Zameen's healthy.
+Scheduling, monitoring and redeploying models reliably.
 
 </td>
 </tr>
